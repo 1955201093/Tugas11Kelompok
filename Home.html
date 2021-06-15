@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Toko Buku</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default rounded borders and increase the bottom margin */ 
+    .navbar {
+      margin-bottom: 50px;
+      border-radius: 0;
+    }
+    
+    /* Remove the jumbotron's default bottom margin */ 
+     .jumbotron {
+      margin-bottom: 0;
+    }
+   
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+  </style>
+</head>
+<body>
+    <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="inputbuku.php">Tambah Buku</a></li>
+        <li><a href="daftarbuku.php">Rak Buku</a></li>
+        <li><a href="anggota.html">Info Anggota</a></li>
+        <li><a href="#" class="notification">
+  <span>Pesan</span>
+  <span class="badge"></span>
+</a></li>>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="login.html"><span class="glyphicon glyphicon-user"></span> Login</a></li>
+        <li><a href="sign.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Cart</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="container">    
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="panel panel-primary">
+        <div class="panel-heading">Buku</div>
+        <div class="panel-body"><img src="Buku.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+        <link rel="stylesheet" href="next.css">
+        <a href="daftarbuku.php" class="previous">&laquo; Previous</a>
+<a href="daftarbuku.php" class="next">Next &raquo;</a>
+      </div>
+    </div>
+    <div class="col-sm-4"> 
+      <div class="panel panel-danger">
+        <div class="panel-heading">Date A Live</div>
+        <div class="panel-body"><img src="date.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+        <div class="panel-footer">Buy 2 Free 1</div>
+        <div class="panel-footer">22 Volume Avalaible</div>
+        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
+      </div>
+    </div>
+    <br>
+
+<br>
+<br>
+<footer class="container-fluid text-center">
+  <p>@Toko Buku Copyright </p>
+  <li><a href="anggota.html">Info Contact</a></li>
+</footer>
+
+</body>
+</html>
